@@ -1,1 +1,1 @@
-program: ./start o
+web: program o
