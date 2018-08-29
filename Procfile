@@ -1,1 +1,1 @@
-web: program o
+web: server o
