@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData } from './utils'
 import { createStore } from './store.js'
 
 /* Plugins */
-import nuxt_plugin_vuenotifications_9509a7aa from 'nuxt_plugin_vuenotifications_9509a7aa' // Source: ../plugins/vue-notifications (ssr: false)
+import nuxt_plugin_vuenotifications_9509a7aa from 'nuxt_plugin_vuenotifications_9509a7aa' // Source: ../src/plugins/vue-notifications (ssr: false)
 
 
 // Component: <no-ssr>

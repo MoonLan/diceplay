@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 
-import '../assets/styles/init.scss'
+import '../src/assets/styles/init.scss'
 
-import '../assets/libs/flipdigit/style.css'
+import '../src/assets/libs/flipdigit/style.css'
 
 
 let layouts = {
 
-  "_default": () => import('../layouts/default.vue'  /* webpackChunkName: "layouts/default" */).then(m => m.default || m),
+  "_default": () => import('../src/layouts/default.vue'  /* webpackChunkName: "layouts/default" */).then(m => m.default || m),
 
-  "_fullplay": () => import('../layouts/fullplay.vue'  /* webpackChunkName: "layouts/fullplay" */).then(m => m.default || m)
+  "_fullplay": () => import('../src/layouts/fullplay.vue'  /* webpackChunkName: "layouts/fullplay" */).then(m => m.default || m)
 
 }
 
