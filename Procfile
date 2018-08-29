@@ -1,1 +1,1 @@
-program: start o
+program: nohup ./start o &
