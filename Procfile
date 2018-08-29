@@ -1,2 +1,1 @@
-program: nohup ./start o &
-web: dist/index.html
+program: ./start o
