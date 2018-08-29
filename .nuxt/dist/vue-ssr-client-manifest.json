@@ -6,16 +6,16 @@
     "pages/play.52dcf723b5218ec3905c.js",
     "layouts/default.a51768ec1f7395841f27.js",
     "vendor.2840b73c4825f286b24b.js",
-    "app.07fbb16066fa0eb4e850.js",
-    "manifest.111b764f20bb364ec451.js",
+    "app.e7bffbbfbe25ae52d5e5.js",
+    "manifest.084c454a4d1f3db626e6.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.111b764f20bb364ec451.js",
+    "manifest.084c454a4d1f3db626e6.js",
     "vendor.2840b73c4825f286b24b.js",
-    "app.07fbb16066fa0eb4e850.js"
+    "app.e7bffbbfbe25ae52d5e5.js"
   ],
   "async": [
     "pages/index.2c13af673e2277ec5820.js",
