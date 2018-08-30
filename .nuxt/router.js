@@ -3,8 +3,8 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _78aad246 = () => import('../src/pages/play.vue' /* webpackChunkName: "pages/play" */).then(m => m.default || m)
-const _17e11d0e = () => import('../src/pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
+const _16d7de81 = () => import('../src/pages/play.vue' /* webpackChunkName: "pages/play" */).then(m => m.default || m)
+const _068b1e55 = () => import('../src/pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
 
@@ -66,12 +66,12 @@ export function createRouter () {
     routes: [
 		{
 			path: "/play",
-			component: _78aad246,
+			component: _16d7de81,
 			name: "play"
 		},
 		{
 			path: "/",
-			component: _17e11d0e,
+			component: _068b1e55,
 			name: "index"
 		}
     ],
