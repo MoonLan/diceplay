@@ -3,7 +3,9 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _16d7de81 = () => import('../src/pages/play.vue' /* webpackChunkName: "pages/play" */).then(m => m.default || m)
+const _65ee6e16 = () => import('../src/pages/raffle.vue' /* webpackChunkName: "pages/raffle" */).then(m => m.default || m)
+const _c8322518 = () => import('../src/pages/dice.vue' /* webpackChunkName: "pages/dice" */).then(m => m.default || m)
+const _0dddf65a = () => import('../src/pages/buycoin.vue' /* webpackChunkName: "pages/buycoin" */).then(m => m.default || m)
 const _068b1e55 = () => import('../src/pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -65,9 +67,19 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/play",
-			component: _16d7de81,
-			name: "play"
+			path: "/raffle",
+			component: _65ee6e16,
+			name: "raffle"
+		},
+		{
+			path: "/dice",
+			component: _c8322518,
+			name: "dice"
+		},
+		{
+			path: "/buycoin",
+			component: _0dddf65a,
+			name: "buycoin"
 		},
 		{
 			path: "/",
