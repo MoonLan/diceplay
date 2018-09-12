@@ -5,6 +5,7 @@ Vue.use(Router)
 
 const _65ee6e16 = () => import('../src/pages/raffle.vue' /* webpackChunkName: "pages/raffle" */).then(m => m.default || m)
 const _c8322518 = () => import('../src/pages/dice.vue' /* webpackChunkName: "pages/dice" */).then(m => m.default || m)
+const _325978e0 = () => import('../src/pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
 const _0dddf65a = () => import('../src/pages/buycoin.vue' /* webpackChunkName: "pages/buycoin" */).then(m => m.default || m)
 const _068b1e55 = () => import('../src/pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
@@ -75,6 +76,11 @@ export function createRouter () {
 			path: "/dice",
 			component: _c8322518,
 			name: "dice"
+		},
+		{
+			path: "/about",
+			component: _325978e0,
+			name: "about"
 		},
 		{
 			path: "/buycoin",
