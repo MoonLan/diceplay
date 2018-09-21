@@ -3,10 +3,13 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _65ee6e16 = () => import('../src/pages/raffle.vue' /* webpackChunkName: "pages/raffle" */).then(m => m.default || m)
-const _c8322518 = () => import('../src/pages/dice.vue' /* webpackChunkName: "pages/dice" */).then(m => m.default || m)
+const _41cd264c = () => import('../src/pages/slotmachine.vue' /* webpackChunkName: "pages/slotmachine" */).then(m => m.default || m)
+const _1fad9b49 = () => import('../src/pages/classicroulette.vue' /* webpackChunkName: "pages/classicroulette" */).then(m => m.default || m)
+const _6a8abcec = () => import('../src/pages/buildblock.vue' /* webpackChunkName: "pages/buildblock" */).then(m => m.default || m)
 const _325978e0 = () => import('../src/pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
 const _0dddf65a = () => import('../src/pages/buycoin.vue' /* webpackChunkName: "pages/buycoin" */).then(m => m.default || m)
+const _c8322518 = () => import('../src/pages/dice.vue' /* webpackChunkName: "pages/dice" */).then(m => m.default || m)
+const _65ee6e16 = () => import('../src/pages/raffle.vue' /* webpackChunkName: "pages/raffle" */).then(m => m.default || m)
 const _068b1e55 = () => import('../src/pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -68,14 +71,19 @@ export function createRouter () {
     scrollBehavior,
     routes: [
 		{
-			path: "/raffle",
-			component: _65ee6e16,
-			name: "raffle"
+			path: "/slotmachine",
+			component: _41cd264c,
+			name: "slotmachine"
 		},
 		{
-			path: "/dice",
-			component: _c8322518,
-			name: "dice"
+			path: "/classicroulette",
+			component: _1fad9b49,
+			name: "classicroulette"
+		},
+		{
+			path: "/buildblock",
+			component: _6a8abcec,
+			name: "buildblock"
 		},
 		{
 			path: "/about",
@@ -86,6 +94,16 @@ export function createRouter () {
 			path: "/buycoin",
 			component: _0dddf65a,
 			name: "buycoin"
+		},
+		{
+			path: "/dice",
+			component: _c8322518,
+			name: "dice"
+		},
+		{
+			path: "/raffle",
+			component: _65ee6e16,
+			name: "raffle"
 		},
 		{
 			path: "/",

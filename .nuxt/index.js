@@ -14,6 +14,8 @@ import { createStore } from './store.js'
 /* Plugins */
 import nuxt_plugin_vuenotifications_9509a7aa from 'nuxt_plugin_vuenotifications_9509a7aa' // Source: ../src/plugins/vue-notifications (ssr: false)
 import nuxt_plugin_vueslidercomponent_6d7bde24 from 'nuxt_plugin_vueslidercomponent_6d7bde24' // Source: ../src/plugins/vue-slider-component (ssr: false)
+import nuxt_plugin_network_54b08df8 from 'nuxt_plugin_network_54b08df8' // Source: ../src/plugins/network (ssr: false)
+import nuxt_plugin_web3js_2e790844 from 'nuxt_plugin_web3js_2e790844' // Source: ../src/plugins/web3js (ssr: false)
 
 
 // Component: <no-ssr>
@@ -156,6 +158,8 @@ async function createApp (ssrContext) {
   if (process.browser) { 
     if (typeof nuxt_plugin_vuenotifications_9509a7aa === 'function') await nuxt_plugin_vuenotifications_9509a7aa(app.context, inject)
     if (typeof nuxt_plugin_vueslidercomponent_6d7bde24 === 'function') await nuxt_plugin_vueslidercomponent_6d7bde24(app.context, inject)
+    if (typeof nuxt_plugin_network_54b08df8 === 'function') await nuxt_plugin_network_54b08df8(app.context, inject)
+    if (typeof nuxt_plugin_web3js_2e790844 === 'function') await nuxt_plugin_web3js_2e790844(app.context, inject)
   }
 
   // If server-side, wait for async component to be resolved first
