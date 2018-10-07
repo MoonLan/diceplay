@@ -4,12 +4,13 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 const _41cd264c = () => import('../src/pages/slotmachine.vue' /* webpackChunkName: "pages/slotmachine" */).then(m => m.default || m)
-const _1fad9b49 = () => import('../src/pages/classicroulette.vue' /* webpackChunkName: "pages/classicroulette" */).then(m => m.default || m)
-const _6a8abcec = () => import('../src/pages/buildblock.vue' /* webpackChunkName: "pages/buildblock" */).then(m => m.default || m)
-const _325978e0 = () => import('../src/pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
+const _4edb438e = () => import('../src/pages/classticketgame.vue' /* webpackChunkName: "pages/classticketgame" */).then(m => m.default || m)
+const _8f6fc8b0 = () => import('../src/pages/classicmine.vue' /* webpackChunkName: "pages/classicmine" */).then(m => m.default || m)
 const _0dddf65a = () => import('../src/pages/buycoin.vue' /* webpackChunkName: "pages/buycoin" */).then(m => m.default || m)
-const _c8322518 = () => import('../src/pages/dice.vue' /* webpackChunkName: "pages/dice" */).then(m => m.default || m)
-const _65ee6e16 = () => import('../src/pages/raffle.vue' /* webpackChunkName: "pages/raffle" */).then(m => m.default || m)
+const _325978e0 = () => import('../src/pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
+const _6a8abcec = () => import('../src/pages/buildblock.vue' /* webpackChunkName: "pages/buildblock" */).then(m => m.default || m)
+const _2b84d5be = () => import('../src/pages/classicdoubtdice.vue' /* webpackChunkName: "pages/classicdoubtdice" */).then(m => m.default || m)
+const _1fad9b49 = () => import('../src/pages/classicroulette.vue' /* webpackChunkName: "pages/classicroulette" */).then(m => m.default || m)
 const _068b1e55 = () => import('../src/pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 
 
@@ -76,19 +77,14 @@ export function createRouter () {
 			name: "slotmachine"
 		},
 		{
-			path: "/classicroulette",
-			component: _1fad9b49,
-			name: "classicroulette"
+			path: "/classticketgame",
+			component: _4edb438e,
+			name: "classticketgame"
 		},
 		{
-			path: "/buildblock",
-			component: _6a8abcec,
-			name: "buildblock"
-		},
-		{
-			path: "/about",
-			component: _325978e0,
-			name: "about"
+			path: "/classicmine",
+			component: _8f6fc8b0,
+			name: "classicmine"
 		},
 		{
 			path: "/buycoin",
@@ -96,14 +92,24 @@ export function createRouter () {
 			name: "buycoin"
 		},
 		{
-			path: "/dice",
-			component: _c8322518,
-			name: "dice"
+			path: "/about",
+			component: _325978e0,
+			name: "about"
 		},
 		{
-			path: "/raffle",
-			component: _65ee6e16,
-			name: "raffle"
+			path: "/buildblock",
+			component: _6a8abcec,
+			name: "buildblock"
+		},
+		{
+			path: "/classicdoubtdice",
+			component: _2b84d5be,
+			name: "classicdoubtdice"
+		},
+		{
+			path: "/classicroulette",
+			component: _1fad9b49,
+			name: "classicroulette"
 		},
 		{
 			path: "/",
