@@ -14,21 +14,21 @@
     "pages/classticketgame.889fa6e1337abafbcaf5.js",
     "pages/slotmachine.9d5f277894eb579989fd.js",
     "img/boatpit.a4a9e74.svg",
-    "pages/index.a9697e53c8e706b7e427.js",
-    "pages/classicdoubtdice.650bc18617a53265390b.js",
+    "pages/index.8f6bc6b64602a269f99e.js",
+    "pages/classicdoubtdice.374d58828f18c0d7dd88.js",
     "pages/about.ead8dd8b26b226e7021a.js",
     "layouts/default.4513584358325f9a5835.js",
     "pages/classicroulette.2855cadaf4c02bbcf828.js",
     "pages/buycoin.541c104ede8869b594ff.js",
     "vendor.db5df29b0c2084654ebc.js",
     "app.e2e449e2990f55ca9d50.js",
-    "manifest.7de7b2571a91dac2ca8b.js",
+    "manifest.0db44296660eb0ad5e10.js",
     "LICENSES",
     "index.spa.html",
     "index.ssr.html"
   ],
   "initial": [
-    "manifest.7de7b2571a91dac2ca8b.js",
+    "manifest.0db44296660eb0ad5e10.js",
     "vendor.db5df29b0c2084654ebc.js",
     "app.e2e449e2990f55ca9d50.js"
   ],
@@ -38,8 +38,8 @@
     "pages/classicmine.0e305033230c9f578729.js",
     "pages/classticketgame.889fa6e1337abafbcaf5.js",
     "pages/slotmachine.9d5f277894eb579989fd.js",
-    "pages/index.a9697e53c8e706b7e427.js",
-    "pages/classicdoubtdice.650bc18617a53265390b.js",
+    "pages/index.8f6bc6b64602a269f99e.js",
+    "pages/classicdoubtdice.374d58828f18c0d7dd88.js",
     "pages/about.ead8dd8b26b226e7021a.js",
     "layouts/default.4513584358325f9a5835.js",
     "pages/classicroulette.2855cadaf4c02bbcf828.js",
@@ -949,9 +949,6 @@
     "4b7a58ed": [
       19
     ],
-    "fb62d29c": [
-      14
-    ],
     "4460fbba": [
       8
     ],
@@ -1017,6 +1014,9 @@
     ],
     "ea8087e8": [
       19
+    ],
+    "ac85cbea": [
+      14
     ],
     "543ed2e4": [
       19
